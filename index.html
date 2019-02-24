@@ -3,22 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300" rel="stylesheet">
     <title></title>
+    <style>
+
+      @media only screen and (min-width: 960px) {
+
+          .container {
+            width: 960px;
+          }
+      }
+
+      @media only screen and (max-width: 960px) {
+
+        .container {
+          width: 600px;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          width: 100%;
+        }
+      }
+
+    </style>
   </head>
-  <body>
+  <body style="margin: 0; padding: 0;">
 
     <!-- Container for Email -->
-    <table class="container" width="100%" border="0" cellspacing="0" cellpadding="0" style="background: lightgray;">
+    <table align="center" width="100%" border="0"
+     cellspacing="0" cellpadding="0" style="background: white;">
 
     <!-- Row that contains Email -->
       <tr>
         <td>
           <!-- Table for Email content -->
-          <table class="email_content_table full_width"width="600px" align="center" cellspacing="0" cellpadding="0" border="0">
+          <table class="container" width="600px"
+           align="center" cellspacing="0" cellpadding="0" border="0"
+           style="background: white;">
 
             <!-- Hero row,  row-1 -->
             <tr>
-              <td >
+              <td>
                 <img width="100%" height="" src="/images/hero.jpg" alt="impressionist painting">
               </td>
             <!-- End of Hero row, row-1 -->
@@ -26,22 +54,76 @@
 
             <!-- The Works of.. row, row-2 -->
             <tr>
-              <table class="full_width"width="600px" align="center" cellspacing="0" cellpadding="0" border="0" style="background: white;">
+              <td style="padding: 25px 0;">
+                <table class="full_width" width="600px" align="center"
+                       cellspacing="0" cellpadding="0" border="0"
+                       style="background: white;">
+
+                  <tr>
+                    <td class="logo">
+                      <img src="images/logo.png">
+                    </td>
+
+                    <td class="headline">
+                      <p style="margin: 0px; color: #4c4c4c; font-family: 'Lato', sans-serif;">presents</p>
+                      <h1 style="margin: 0px;color: #D83826; font-family:'Open Sans Condensed', sans-serif; font-size: 2.5rem;">The Works of <br> Pierre-Auguste Renoir</h1>
+                    </td>
+                  </tr>
+
                 <tr>
-
-                  <td>
-                    <img src="images/logo.png">
-                  </td>
-
-                  <td>
-                    <p>presents</p>
-                    <h1 style="margin: 0;">The Works of <br> Pierre-Auguste Renoir</h1>
+                  <td colspan="2" style="padding-top: 25px;">
+                    <p style="line-height: 1.5; color: #4c4c4c; font-size: 1.2rem; font-family: 'Lato', sans-serif;">Starting on October 12th and running for three weeks, square
+                      gallery is proud and excited to display a selection of 6 pieces
+                      of the work of Pierre-Auguste Renoir, the French master painter
+                      of the great impressionist and Realist movements of the 17th
+                      century.</p>
                   </td>
                 </tr>
-
-                <tr></tr>
               </table>
+              </td>
             <!-- End of The Works of.. row, row-2 -->
+            </tr>
+
+            <!-- Register Now row,  row-3 -->
+            <tr>
+              <td width="100%" style="background: #D83826;">
+                <table width="600px" align="center" cellspacing="0" cellpadding="0" border="0"
+                        style="background: #D83826; text-align: center;">
+                 <tr>
+                   <td style="padding: 25px 0;">
+                      <h1 style="color: #ffffff; font-family:'Open Sans Condensed', sans-serif; font-size: 2.5rem;">The Works of Pierre-Auguste Renoir:<br>
+                        A Live Tour With Clemence Rousseau</h1>
+
+                      <p style="line-height: 1.5; color: #ffffff; font-size: 1.2rem; font-family: 'Lato', sans-serif;">Friday nights at 8:00PM throughout the exhibition, French art critic
+                        and Renoir expert Clemence Rousseau will be examining the 6 pieces
+                        featured, providing deep insights into Renoir's genius and his beautiful
+                        artwork. Register early, as space is limited.
+
+                   </td>
+                 </tr>
+
+                 <tr>
+                   <td style="padding: 25px 0;">
+                     <h3 style="margin: auto; color: #D83826; font-family: 'Lato', sans-serif;
+                      background:  #ffffff; width: 150px; padding: 10px; border-radius: 2px;
+                      ">Register Now</h3>
+                   </td>
+                 </tr>
+
+               </table>
+              </td>
+            <!-- End of Register Now row, row-3 -->
+            </tr>
+
+            <!-- Footer, row-4 -->
+            <tr>
+              <td style="color: #d3d3d3	; height: 300px; background: #424145; text-align: center;">
+                <p style="margin:0 0 50px 0; font-family: 'Lato', sans-serif;">As always, everyone at square gallery thanks you<br>
+                  for your support.  We couldn't exist without you.</p>
+
+                <p style="font-family: 'Lato', sans-serif;">&copy 2019 square gallery, 1551 Peachtree Street NW, Atlanta Georgia 30318</p>
+              </td>
+            <!-- End of Footer, row-4 -->
             </tr>
 
             <!-- End of table for Email content -->
